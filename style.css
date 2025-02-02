@@ -105,7 +105,7 @@ a{
     font-size: 36px;
     text-align: center;
     flex-direction: column;
-    margin: 20px;
+    margin: 20pxs;
 }
 
 .quote1{
@@ -114,6 +114,8 @@ a{
 
 .signup{
     background-color: white;
+    display: flex;
+    justify-content: center;
 }
 .blue{
     border: 10px solid #3882f6;
