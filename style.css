@@ -9,8 +9,6 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    background-size: 105%;
-    background-position: center;
 }
 .header {
     display: flex;
