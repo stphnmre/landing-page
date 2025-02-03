@@ -10,14 +10,17 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .header {
     display: flex;
     color: #F9FAF8;
     background-color: #1F2937;
-    padding: 20px 0px 20px 100px;
-    align-items: center;
     font-size: 30px;
+    justify-content: space-between;
+    margin-right: -220px;
+    gap: 20px;
 }
+
 .links{
     margin-left: auto;
     flex-direction: row;
@@ -38,6 +41,12 @@ a{
     background-color: #1F2937;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    margin-right: -220px;
+}
+.hero img{
+    height: 300px;
+    width: auto;
 }
 .text{
     text-align: left;
@@ -71,6 +80,7 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-right: -200px;
 }
 .photos {
     display: flex;
@@ -103,7 +113,7 @@ a{
     font-size: 36px;
     text-align: center;
     flex-direction: column;
-    margin: 20pxs;
+    margin-right: -220px;
 }
 
 .quote1{
@@ -114,6 +124,7 @@ a{
     background-color: white;
     display: flex;
     justify-content: center;
+    margin-right: -220px;
 }
 .blue{
     border: 10px solid #3882f6;
@@ -150,3 +161,33 @@ a{
     text-align: center;
     margin-bottom: 0;
 }
+
+@media screen and (min-width: 768px)  {
+
+    .header {
+        display: flex;
+        color: #F9FAF8;
+        background-color: #1F2937;
+        padding: 20px 0px 20px 100px;
+        align-items: center;
+        font-size: 30px;
+        margin: 0;
+    }    
+
+    .hero img {
+        height: 600;
+        width: auto;
+    }
+    .hero {
+        margin-right: 0;
+    }
+    .pc{
+        margin-right: 0;
+    }
+    .quote {
+        margin: 20px;
+    }
+    .signup{
+        margin: 0;
+    }
+    }
